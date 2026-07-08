@@ -7,7 +7,12 @@ export const metadata = {
     default: "Website TKW",
     template: "%s |  Amanportasia"
   },
-  description: "Website TKW dengan menu Beranda, Profil, dan Contact Person."
+  description: "Website TKW dengan menu Beranda, Profil, dan Contact Person.",
+  icons: {
+    icon: "/amanportasia.png",
+    shortcut: "/amanportasia.png",
+    apple: "/amanportasia.png"
+  }
 };
 
 export const viewport = {
