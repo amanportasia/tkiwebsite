@@ -8,19 +8,31 @@ import malaysiaIcon from "../images/malaysia_icon.jpg";
 const featuredBlocks = [
   {
     title: "Profil Lembaga",
-    desc: "Pelajari visi, misi, dan layanan inti  Amanportasia sebelum memulai proses.",
+    desc: (
+      <>
+        Pelajari <strong>visi, misi, dan layanan inti</strong> Amanportasia sebelum memulai proses.
+      </>
+    ),
     linkLabel: "Buka Profil",
     href: "/profil"
   },
   {
     title: "Negara Tujuan",
-    desc: "Bandingkan syarat usia dan jenis job order untuk setiap negara tujuan.",
+    desc: (
+      <>
+        Bandingkan <strong>syarat usia</strong> dan jenis job order untuk setiap negara tujuan.
+      </>
+    ),
     linkLabel: "Lihat Infografis",
     href: "#infografis"
   },
   {
     title: "Konsultasi Admin",
-    desc: "Kirim data awal lewat form cepat dan lanjutkan proses via WhatsApp resmi.",
+    desc: (
+      <>
+        Kirim data awal lewat form cepat dan lanjutkan proses via <strong>WhatsApp resmi</strong>.
+      </>
+    ),
     linkLabel: "Hubungi Admin",
     href: "/contact"
   }
@@ -29,15 +41,30 @@ const featuredBlocks = [
 const homeReasons = [
   {
     title: "Data Mudah Dipahami",
-    desc: "Materi disusun dengan bahasa sederhana agar calon pendaftar dan keluarga bisa memahami proses sejak awal."
+    desc: (
+      <>
+        Materi disusun dengan <strong>bahasa sederhana</strong> agar calon pendaftar dan keluarga memahami proses sejak
+        awal.
+      </>
+    )
   },
   {
     title: "Fokus pada Kesiapan",
-    desc: "Kami menekankan kesiapan mental, dokumen, dan arah negara tujuan agar proses berjalan lebih tenang."
+    desc: (
+      <>
+        Kami menekankan <strong>kesiapan mental, dokumen, dan arah negara tujuan</strong> agar proses berjalan lebih
+        tenang.
+      </>
+    )
   },
   {
     title: "Pendampingan Bertahap",
-    desc: "Setiap calon dibimbing langkah demi langkah, mulai dari konsultasi awal sampai pemetaan kebutuhan pelatihan."
+    desc: (
+      <>
+        Setiap calon dibimbing <strong>langkah demi langkah</strong>, mulai dari konsultasi awal sampai pemetaan
+        kebutuhan pelatihan.
+      </>
+    )
   }
 ];
 
@@ -80,13 +107,16 @@ export default function HomePage() {
   return (
     <main className="site-main max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
       <section className="section landing-hero">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           <article className="hero-copy hero-copy-main h-full">
             <p className="eyebrow">Website Resmi  Amanportasia</p>
-            <h1>Masa Depan Karier Migran Dimulai dari Informasi yang Jelas.</h1>
+            <h1>
+              Masa Depan Karier Migran Dimulai dari <span className="highlight-word">Informasi yang Jelas</span> dan{" "}
+              <span className="text-accent">Resmi</span>.
+            </h1>
             <p className="hero-lead">
-              Kami membantu calon tenaga kerja memahami syarat, pilihan negara, dan langkah awal pendaftaran lewat
-              materi yang ringkas, terstruktur, dan mudah diakses.
+              Kami membantu calon tenaga kerja memahami <strong>syarat</strong>, <strong>pilihan negara</strong>, dan{" "}
+              <strong>langkah awal pendaftaran</strong> lewat materi yang ringkas, terstruktur, dan mudah diakses.
             </p>
             <div className="hero-actions">
               <Link className="btn btn-primary" href="/contact">
@@ -97,28 +127,6 @@ export default function HomePage() {
               </a>
             </div>
           </article>
-
-          <aside className="hero-card hero-aside h-full">
-            <p className="eyebrow">Ringkasan</p>
-            <h2>Data Inti Penempatan</h2>
-            <div className="hero-mini-metrics">
-              <div>
-                <span>4</span>
-                <small>Negara Tujuan</small>
-              </div>
-              <div>
-                <span>21+</span>
-                <small>Usia Minimal Umum</small>
-              </div>
-              <div>
-                <span>23+</span>
-                <small>Khusus Singapura</small>
-              </div>
-            </div>
-            <Link className="btn btn-secondary" href="/profil">
-              Lihat Profil Lembaga
-            </Link>
-          </aside>
         </div>
       </section>
 
@@ -126,7 +134,9 @@ export default function HomePage() {
         <div className="section-title section-title-inline">
           <div>
             <p className="eyebrow">Blok Informasi</p>
-            <h2>Pilih Jalur Informasi Sesuai Kebutuhan</h2>
+            <h2>
+              Pilih Jalur <span className="text-accent">Informasi</span> Sesuai Kebutuhan
+            </h2>
           </div>
         </div>
 
@@ -145,7 +155,9 @@ export default function HomePage() {
         <div className="section-title section-title-inline">
           <div>
             <p className="eyebrow">Kenapa Mulai di Sini</p>
-            <h2>Langkah Awal yang Jelas Bikin Proses Lebih Tenang</h2>
+            <h2>
+              Langkah Awal yang <span className="text-accent">Jelas</span> Bikin Proses Lebih Tenang
+            </h2>
           </div>
         </div>
 
@@ -161,8 +173,9 @@ export default function HomePage() {
         <article className="infographic-note mt-3">
           <h3> Amanportasia Siap Menjadi Partner Informasi Anda</h3>
           <p className="story-note">
-            Tujuan kami bukan sekadar memberi data, tetapi membantu Anda mengambil keputusan dengan percaya diri,
-            terarah, dan realistis sesuai kondisi masing-masing calon.
+            Tujuan kami bukan sekadar memberi data, tetapi membantu Anda mengambil keputusan dengan{" "}
+            <strong>percaya diri</strong>, <strong>terarah</strong>, dan <em>realistis</em> sesuai kondisi masing-masing
+            calon.
           </p>
         </article>
       </section>
@@ -173,14 +186,16 @@ export default function HomePage() {
             <div className="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
               <div>
                 <p className="eyebrow mb-1">Infografis Beranda</p>
-                <h2 className="mb-0 infographic-title">Negara Tujuan</h2>
+                <h2 className="mb-0 infographic-title">
+                  Negara <span className="text-accent">Tujuan</span>
+                </h2>
               </div>
               <span className="info-badge">4 Negara Tujuan</span>
             </div>
 
             <p className="infographic-intro">
-              Ringkasan ini menampilkan negara tujuan, batas usia minimal, dan jenis job order yang tersedia untuk
-              penempatan.
+              Ringkasan ini menampilkan <strong>negara tujuan</strong>, <strong>batas usia minimal</strong>, dan jenis
+              job order yang tersedia untuk penempatan.
             </p>
 
             <div className="infographic-metrics">
@@ -193,10 +208,6 @@ export default function HomePage() {
                 <span className="metric-label">Umur Minimal Umum</span>
               </div>
               <div className="metric-item">
-                <span className="metric-value">23+</span>
-                <span className="metric-label">Khusus Singapura</span>
-              </div>
-              <div className="metric-item">
                 <span className="metric-value">3</span>
                 <span className="metric-label">Tahap Persiapan Dasar</span>
               </div>
@@ -207,35 +218,56 @@ export default function HomePage() {
             <div className="infographic-note">
               <h3>Alur Persiapan Umum CTKI</h3>
               <ol>
-                <li>Verifikasi syarat umur dan data identitas sesuai negara tujuan.</li>
-                <li>Ikuti pelatihan dasar keterampilan kerja dan komunikasi.</li>
-                <li>Lengkapi dokumen kesehatan dan administrasi sebelum proses penempatan.</li>
+                <li>
+                  Verifikasi <strong>syarat umur</strong> dan data identitas sesuai negara tujuan.
+                </li>
+                <li>
+                  Ikuti pelatihan dasar <strong>keterampilan kerja</strong> dan komunikasi.
+                </li>
+                <li>
+                  Lengkapi dokumen <strong>kesehatan</strong> dan administrasi sebelum proses penempatan.
+                </li>
               </ol>
             </div>
           </article>
 
           <aside className="requirement-card h-full">
-            <p className="eyebrow">Syarat Utama</p>
-            <h3>Kualifikasi Dasar</h3>
+            <p className="eyebrow">Panduan Pendaftaran</p>
+            <h3>
+              ALUR <span className="text-accent">PROSES</span>
+            </h3>
             <p className="requirement-intro">
-              Kriteria ini dipakai sebagai penyaringan awal calon pendaftar sebelum masuk tahap konsultasi dan pemilihan
-              negara tujuan.
+              Berikut tahapan awal yang perlu disiapkan calon pendaftar sebelum masuk ke proses administrasi lanjutan
+              dan <strong>pemilihan negara tujuan</strong>.
             </p>
-            <ul className="requirement-list">
-              <li>Berjenis kelamin wanita.</li>
-              <li>Kualifikasi umur minimal 21 tahun.</li>
-              <li>Khusus tujuan Singapura, umur minimal 23 tahun.</li>
-            </ul>
+            <ol className="requirement-list">
+              <li>
+                <strong>MCU</strong> atau pemeriksaan kesehatan awal.
+              </li>
+              <li>
+                Pendaftaran <strong>ID PMI</strong> di <em>Dinas Tenaga Kerja</em>.
+              </li>
+              <li>
+                Pembuatan <strong>paspor</strong> jika belum memiliki paspor aktif.
+              </li>
+            </ol>
             <div className="requirement-note">
-              <h4>Tahap Setelah Lolos Syarat Dasar</h4>
+              <h4>Catatan Persiapan</h4>
               <ol>
-                <li>Verifikasi identitas dan data keluarga.</li>
-                <li>Penentuan negara tujuan sesuai usia dan minat kerja.</li>
-                <li>Pendampingan dokumen dan jadwal pelatihan awal.</li>
+                <li>
+                  Siapkan <strong>data identitas pribadi dan keluarga</strong> dengan benar.
+                </li>
+                <li>
+                  Pastikan nomor kontak aktif agar admin mudah memberi <strong>arahan lanjutan</strong>.
+                </li>
+                <li>
+                  Konsultasikan kondisi dokumen sebelum menentukan <em>jadwal proses berikutnya</em>.
+                </li>
               </ol>
             </div>
             <p className="requirement-footnote">
-              Dokumen yang dibutuhkan: KTP, KK, dan ijazah terakhir untuk pengecekan administrasi.
+              Dokumen dasar yang biasanya dicek: <strong>KTP</strong>, <strong>KK</strong>,{" "}
+              <strong>ijazah terakhir</strong>, dan dokumen pendukung sesuai kebutuhan.
             </p>
           </aside>
         </div>

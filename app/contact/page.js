@@ -8,15 +8,29 @@ export const metadata = {
 const contactValueCards = [
   {
     title: "Konsultasi Ramah Pemula",
-    text: "Belum tahu harus mulai dari mana? Tim kami siap membantu memetakan langkah awal sesuai kondisi Anda."
+    text: (
+      <>
+        Belum tahu harus mulai dari mana? Tim kami siap membantu memetakan <strong>langkah awal</strong> sesuai kondisi
+        Anda.
+      </>
+    )
   },
   {
     title: "Arah Dokumen Lebih Jelas",
-    text: "Kami bantu jelaskan dokumen inti yang dibutuhkan agar Anda tidak bingung menyiapkan berkas."
+    text: (
+      <>
+        Kami bantu jelaskan <strong>dokumen inti</strong> yang dibutuhkan agar Anda tidak bingung menyiapkan berkas.
+      </>
+    )
   },
   {
     title: "Respon Cepat & Terarah",
-    text: "Setiap pertanyaan akan dijawab dengan ringkas dan fokus pada tindakan selanjutnya yang perlu Anda lakukan."
+    text: (
+      <>
+        Setiap pertanyaan dijawab dengan ringkas dan fokus pada <strong>tindakan selanjutnya</strong> yang perlu Anda
+        lakukan.
+      </>
+    )
   }
 ];
 
@@ -28,9 +42,12 @@ export default function ContactPage() {
           <div className="section-title section-title-inline">
             <div>
               <p className="eyebrow">Pusat Kontak</p>
-              <h2>Konsultasi Penempatan</h2>
+              <h2>
+                Konsultasi <span className="text-accent">Penempatan</span>
+              </h2>
               <p className="contact-intro">
-                Hubungi tim resmi untuk informasi pendaftaran, persiapan dokumen, dan pengecekan syarat negara tujuan.
+                Hubungi tim resmi untuk <strong>informasi pendaftaran</strong>, persiapan dokumen, dan pengecekan syarat
+                negara tujuan.
               </p>
             </div>
           </div>
@@ -46,7 +63,9 @@ export default function ContactPage() {
                 >
                   082337224661
                 </a>
-                <p className="hero-note">Layanan konsultasi pendaftaran, dokumen awal, dan proses penempatan.</p>
+                <p className="hero-note">
+                  Layanan konsultasi <strong>pendaftaran</strong>, dokumen awal, dan proses penempatan.
+                </p>
 
                 <div className="contact-tag-row">
                   <span className="contact-tag">WhatsApp</span>
@@ -68,9 +87,15 @@ export default function ContactPage() {
                 <div className="contact-helper-card">
                   <h3>Panduan Singkat</h3>
                   <ol>
-                    <li>Isi form konsultasi dengan data dasar.</li>
-                    <li>Klik kirim untuk membuka WhatsApp admin.</li>
-                    <li>Lanjutkan arahan dokumen sesuai negara tujuan.</li>
+                    <li>
+                      Isi form konsultasi dengan <strong>data dasar</strong>.
+                    </li>
+                    <li>
+                      Klik kirim untuk membuka <strong>WhatsApp admin</strong>.
+                    </li>
+                    <li>
+                      Lanjutkan arahan dokumen sesuai <em>negara tujuan</em>.
+                    </li>
                   </ol>
                 </div>
               </article>
@@ -78,10 +103,12 @@ export default function ContactPage() {
 
             <div>
               <article className="contact-form-card h-full">
-                <h3>Form Konsultasi Cepat</h3>
+                <h3>
+                  Form Konsultasi <span className="text-accent">Cepat</span>
+                </h3>
                 <p className="form-intro">
-                  Isi data di bawah ini, lalu klik kirim. Anda akan diarahkan ke chat WhatsApp admin dengan format data
-                  otomatis.
+                  Isi data di bawah ini, lalu klik kirim. Anda akan diarahkan ke chat <strong>WhatsApp admin</strong>{" "}
+                  dengan format data otomatis.
                 </p>
                 <WhatsAppForm />
               </article>
@@ -93,7 +120,9 @@ export default function ContactPage() {
           <div className="section-title section-title-inline">
             <div>
               <p className="eyebrow">Nilai Layanan</p>
-              <h2>Mengapa Konsultasi di  Amanportasia Lebih Nyaman</h2>
+              <h2>
+                Mengapa Konsultasi di <span className="text-accent">Amanportasia</span> Lebih Nyaman
+              </h2>
             </div>
           </div>
 
@@ -109,8 +138,8 @@ export default function ContactPage() {
           <article className="infographic-note mt-3">
             <h3>Kami Siap Menemani Proses Anda</h3>
             <p className="story-note">
-              Konsultasi yang baik bukan hanya cepat dijawab, tetapi juga memberi arah yang jelas agar Anda merasa
-              yakin saat melangkah ke tahap berikutnya.
+              Konsultasi yang baik bukan hanya cepat dijawab, tetapi juga memberi <strong>arah yang jelas</strong> agar
+              Anda merasa yakin saat melangkah ke tahap berikutnya.
             </p>
           </article>
         </section>

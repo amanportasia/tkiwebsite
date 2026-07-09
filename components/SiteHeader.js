@@ -92,7 +92,7 @@ export default function SiteHeader() {
                   alt="Amanportasia"
                   fill
                   quality={100}
-                  sizes="64px"
+                  sizes="(max-width: 576px) 92px, 112px"
                   priority
                 />
               </span>
@@ -122,7 +122,7 @@ export default function SiteHeader() {
                 onClick={closeMenu}
               ></button>
               <nav
-                className="menu-drawer fixed right-4 top-16 z-50 shadow-2xl rounded-xl bg-white"
+                className="menu-drawer z-50 shadow-2xl rounded-xl bg-white"
                 id="mainMenu"
                 aria-labelledby="mainMenuLabel"
               >
