@@ -13,7 +13,7 @@ export default function WhatsAppForm() {
     const jenisKelamin = "Perempuan";
 
     const message = [
-      "Halo Admin TKW, saya ingin konsultasi.",
+      "Halo Admin Amanportasia, saya ingin konsultasi.",
       `Nama: ${nama}`,
       `Nomor HP: ${nomorHp}`,
       `Jenis Kelamin: ${jenisKelamin}`,

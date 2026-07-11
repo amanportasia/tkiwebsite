@@ -252,23 +252,53 @@ export default function HomePage() {
               </li>
             </ol>
             <div className="requirement-note">
-              <h4>Catatan Persiapan</h4>
+              <h4>BENEFIT</h4>
               <ol>
                 <li>
-                  Siapkan <strong>data identitas pribadi dan keluarga</strong> dengan benar.
+                  Akun siap kerja by <strong>Kemenaker</strong>.
                 </li>
                 <li>
-                  Pastikan nomor kontak aktif agar admin mudah memberi <strong>arahan lanjutan</strong>.
+                  Visa kerja <strong>resmi</strong>.
                 </li>
                 <li>
-                  Konsultasikan kondisi dokumen sebelum menentukan <em>jadwal proses berikutnya</em>.
+                  Asuransi Kesehatan.
+                </li>
+                <li>
+                  Tempat <strong>LPK</strong> yang nyaman.
                 </li>
               </ol>
+            </div>
+            <div className="process-info-grid">
+              <article className="process-mini-card">
+                <span className="process-mini-label">Dokumen Awal</span>
+                <h4>Siapkan Berkas Dasar</h4>
+                <ul>
+                  <li>KTP dan KK.</li>
+                  <li>Ijazah terakhir.</li>
+                  <li>Nomor HP aktif.</li>
+                </ul>
+              </article>
+              <article className="process-mini-card process-mini-card-accent">
+                <span className="process-mini-label">Pendampingan</span>
+                <h4>Admin Bantu Cek Kesiapan</h4>
+                <p>
+                  Tim membantu mengecek urutan proses agar pendaftar tidak bingung menentukan langkah berikutnya.
+                </p>
+              </article>
             </div>
             <p className="requirement-footnote">
               Dokumen dasar yang biasanya dicek: <strong>KTP</strong>, <strong>KK</strong>,{" "}
               <strong>ijazah terakhir</strong>, dan dokumen pendukung sesuai kebutuhan.
             </p>
+            <div className="process-cta">
+              <div>
+                <span>Butuh arahan cepat?</span>
+                <p>Kirim data awal lewat form konsultasi, lalu admin akan membantu memetakan proses Anda.</p>
+              </div>
+              <Link className="btn btn-primary" href="/contact">
+                Konsultasi
+              </Link>
+            </div>
           </aside>
         </div>
       </section>

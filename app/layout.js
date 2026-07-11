@@ -4,14 +4,17 @@ import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
   title: {
-    default: "Website TKW",
+    default: "Amanportasia",
     template: "%s |  Amanportasia"
   },
-  description: "Website TKW dengan menu Beranda, Profil, dan Contact Person.",
+  description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
   icons: {
-    icon: "/amanportasia.png",
-    shortcut: "/amanportasia.png",
-    apple: "/amanportasia.png"
+    icon: [
+      { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" }
+    ],
+    shortcut: "/favicon-48.png",
+    apple: "/apple-touch-icon.png"
   }
 };
 

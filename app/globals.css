@@ -22,7 +22,7 @@
   --radius-sm: 10px;
   --shadow: 0 14px 30px rgba(32, 27, 20, 0.08);
   --shadow-soft: 0 8px 18px rgba(32, 27, 20, 0.06);
-  --header-height: 112px;
+  --header-height: 88px;
   --content-max: 80rem;
   --content-gutter: clamp(16px, 4vw, 56px);
   --header-gutter: clamp(16px, 4vw, 56px);
@@ -253,8 +253,8 @@ em {
 }
 
 .brand-logo-frame {
-  width: 112px;
-  height: 112px;
+  width: 88px;
+  height: 88px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -274,8 +274,8 @@ em {
 }
 
 .site-header .custom-toggler {
-  width: 58px;
-  height: 58px;
+  width: 48px;
+  height: 48px;
   display: grid;
   place-items: center;
   border-radius: 0;
@@ -295,8 +295,8 @@ em {
 }
 
 .site-header .hamburger-lines {
-  width: 36px;
-  height: 27px;
+  width: 30px;
+  height: 22px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -304,7 +304,7 @@ em {
 
 .site-header .hamburger-lines .line {
   width: 100%;
-  height: 3.5px;
+  height: 3px;
   border-radius: 999px;
   background: #f7f1e8;
   transition: transform 0.28s ease, opacity 0.2s ease;
@@ -1021,11 +1021,94 @@ em {
   line-height: 1.45;
 }
 
+.process-info-grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.process-mini-card {
+  border: 1px solid rgba(26, 170, 160, 0.18);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, #fff 0%, rgba(26, 170, 160, 0.05) 100%);
+  padding: 0.85rem;
+}
+
+.process-mini-card-accent {
+  border-color: rgba(196, 132, 50, 0.28);
+  background: linear-gradient(180deg, #fff 0%, rgba(196, 132, 50, 0.08) 100%);
+}
+
+.process-mini-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #8b7d6a;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.process-mini-card h4 {
+  margin: 0 0 7px;
+  color: var(--accent-strong);
+  font-family: var(--title-font);
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+
+.process-mini-card ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.process-mini-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
 .requirement-footnote {
   margin: 12px 0 0;
   color: var(--muted);
   font-size: 0.82rem;
   line-height: 1.5;
+}
+
+.process-cta {
+  margin-top: 14px;
+  border: 1px solid rgba(26, 170, 160, 0.26);
+  border-radius: var(--radius-sm);
+  background: rgba(26, 170, 160, 0.08);
+  padding: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.process-cta span {
+  display: block;
+  color: var(--highlight);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.process-cta p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.process-cta .btn {
+  flex: 0 0 auto;
+  min-width: 118px;
 }
 
 .profile-card {
@@ -1493,8 +1576,8 @@ em {
   }
 
   .brand-logo-frame {
-    width: 92px;
-    height: 92px;
+    width: 76px;
+    height: 76px;
   }
 
   .brand-logo-frame .brand-logo {
@@ -1532,6 +1615,19 @@ em {
   .quick-grid,
   .hero-mini-metrics {
     grid-template-columns: 1fr;
+  }
+
+  .process-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-cta {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .process-cta .btn {
+    width: 100%;
   }
 
   .footer-grid {
