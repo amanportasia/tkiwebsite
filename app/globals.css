@@ -193,9 +193,9 @@ em {
   left: 0;
   width: 100%;
   z-index: 1030;
-  background: linear-gradient(180deg, rgba(96, 101, 108, 0.96) 0%, rgba(72, 77, 84, 0.94) 100%);
-  border-bottom: 1px solid rgba(232, 236, 240, 0.18);
-  box-shadow: 0 8px 22px rgba(25, 29, 34, 0.2);
+  background: linear-gradient(180deg, rgba(116, 112, 103, 0.98) 0%, rgba(96, 92, 84, 0.96) 100%);
+  border-bottom: 1px solid rgba(232, 224, 211, 0.28);
+  box-shadow: 0 8px 20px rgba(45, 39, 31, 0.16);
   backdrop-filter: blur(8px);
   transition: transform 0.28s ease, opacity 0.22s ease;
   will-change: transform;
@@ -248,7 +248,7 @@ em {
   display: inline-flex;
   align-items: center;
   padding: 0;
-  color: #f3ede3;
+  color: #fffaf0;
   opacity: 1;
 }
 
@@ -270,7 +270,7 @@ em {
 
 .site-header .navbar-brand.brand:hover,
 .site-header .navbar-brand.brand:focus {
-  color: #fffaf0;
+  color: #ffffff;
 }
 
 .site-header .custom-toggler {
@@ -306,7 +306,7 @@ em {
   width: 100%;
   height: 3px;
   border-radius: 999px;
-  background: #f7f1e8;
+  background: #fff7ea;
   transition: transform 0.28s ease, opacity 0.2s ease;
 }
 

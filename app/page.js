@@ -286,10 +286,6 @@ export default function HomePage() {
                 </p>
               </article>
             </div>
-            <p className="requirement-footnote">
-              Dokumen dasar yang biasanya dicek: <strong>KTP</strong>, <strong>KK</strong>,{" "}
-              <strong>ijazah terakhir</strong>, dan dokumen pendukung sesuai kebutuhan.
-            </p>
             <div className="process-cta">
               <div>
                 <span>Butuh arahan cepat?</span>

@@ -12,6 +12,10 @@ const NAV_LINKS = [
   { href: "/contact", label: "Contact Person" }
 ];
 
+const TOP_VISIBLE_OFFSET = 24;
+const HIDE_AFTER_OFFSET = 96;
+const SCROLL_DELTA_THRESHOLD = 8;
+
 export default function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
@@ -53,12 +57,12 @@ export default function SiteHeader() {
         const currentScrollY = getScrollY();
         const previousScrollY = previousScrollYRef.current;
         const scrollDifference = currentScrollY - previousScrollY;
-        const isNearTop = currentScrollY < 72;
-        const hasMovedEnough = Math.abs(scrollDifference) > 3;
+        const isNearTop = currentScrollY <= TOP_VISIBLE_OFFSET;
+        const hasMovedEnough = Math.abs(scrollDifference) >= SCROLL_DELTA_THRESHOLD;
 
-        if (isNearTop || (hasMovedEnough && currentScrollY < previousScrollY)) {
+        if (isNearTop || (hasMovedEnough && scrollDifference < 0)) {
           setIsHeaderVisible(true);
-        } else if (hasMovedEnough && currentScrollY > previousScrollY) {
+        } else if (hasMovedEnough && scrollDifference > 0 && currentScrollY > HIDE_AFTER_OFFSET) {
           setIsHeaderVisible(false);
         }
 
