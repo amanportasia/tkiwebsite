@@ -10,10 +10,11 @@ export const metadata = {
   description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
       { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
       { url: "/favicon-192.png", sizes: "192x192", type: "image/png" }
     ],
-    shortcut: "/favicon-48.png",
+    shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png"
   }
 };
