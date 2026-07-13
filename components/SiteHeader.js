@@ -96,7 +96,7 @@ export default function SiteHeader() {
                   alt="Amanportasia"
                   fill
                   quality={100}
-                  sizes="(max-width: 576px) 76px, 88px"
+                  sizes="(max-width: 576px) 62px, 88px"
                   priority
                 />
               </span>
