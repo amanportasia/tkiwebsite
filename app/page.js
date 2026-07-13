@@ -81,7 +81,7 @@ const destinationSlides = [
     key: "taiwan",
     title: "Taiwan",
     age: "Usia minimal 21 tahun",
-    points: ["Perawat orang tua Lansia"],
+    points: ["Perawat orang tua (Lansia)"],
     image: taiwanIcon,
     alt: "Pemandangan kota Taiwan"
   },
