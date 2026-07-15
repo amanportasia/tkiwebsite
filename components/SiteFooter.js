@@ -5,8 +5,8 @@ export default function SiteFooter() {
         <div className="footer-panel">
           <div className="footer-intro">
             <p>
-              Amanportasia berkomitmen membantu calon pekerja migran dengan informasi yang jelas, pendampingan yang
-              bertanggung jawab, dan layanan konsultasi yang mudah dijangkau.
+              Informasi Lowongan Kerja Luar negri membantu calon pekerja migran memahami syarat, negara tujuan,
+              pendampingan dokumen, dan layanan konsultasi yang mudah dijangkau.
             </p>
           </div>
 

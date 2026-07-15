@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Profil",
-  description: "Profil  Amanportasia."
+  description: "Profil Informasi Lowongan Kerja Luar negri."
 };
 
 const values = [
@@ -71,13 +71,14 @@ export default function ProfilPage() {
           <article className="hero-copy hero-copy-main h-full">
             <p className="eyebrow">Profil</p>
             <h1>
-              Tentang <span className="text-accent">Amanportasia</span>
+              Tentang <span className="text-accent">Informasi Lowongan Kerja Luar negri</span>
             </h1>
             <p className="hero-lead">
-              Amanportasia hadir sebagai platform <strong>informasi</strong> dan <strong>konsultasi awal</strong> bagi
-              calon pekerja migran Indonesia yang membutuhkan panduan seputar proses pendaftaran, persiapan dokumen,
-              pelatihan, hingga penempatan kerja di luar negeri. Kami berkomitmen menyediakan informasi yang jelas,
-              praktis, dan mudah dipahami agar calon tenaga kerja dapat mempersiapkan diri dengan lebih{" "}
+              Informasi Lowongan Kerja Luar negri hadir sebagai platform <strong>informasi</strong> dan{" "}
+              <strong>konsultasi awal</strong> bagi calon pekerja migran Indonesia yang membutuhkan panduan seputar
+              proses pendaftaran, persiapan dokumen, pelatihan, hingga penempatan kerja di luar negeri. Kami
+              berkomitmen menyediakan informasi yang jelas, praktis, dan mudah dipahami agar calon tenaga kerja dapat
+              mempersiapkan diri dengan lebih{" "}
               <em>aman, matang, dan terarah</em> sebelum bekerja di negara tujuan.
             </p>
             <div className="hero-actions">

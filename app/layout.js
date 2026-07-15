@@ -41,7 +41,7 @@ export const metadata = {
         url: "/amanportasia.png",
         width: 1024,
         height: 1024,
-        alt: "Amanportasia"
+        alt: "Informasi Lowongan Kerja Luar negri"
       }
     ],
     locale: "id_ID",

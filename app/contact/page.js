@@ -2,7 +2,7 @@ import WhatsAppForm from "../../components/WhatsAppForm";
 
 export const metadata = {
   title: "Contact Person",
-  description: "Pusat kontak  Amanportasia."
+  description: "Pusat kontak Informasi Lowongan Kerja Luar negri."
 };
 
 const contactValueCards = [
@@ -121,7 +121,8 @@ export default function ContactPage() {
             <div>
               <p className="eyebrow">Nilai Layanan</p>
               <h2>
-                Mengapa Konsultasi di <span className="text-accent">Amanportasia</span> Lebih Nyaman
+                Mengapa Konsultasi di <span className="text-accent">Informasi Lowongan Kerja Luar negri</span> Lebih
+                Nyaman
               </h2>
             </div>
           </div>

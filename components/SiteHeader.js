@@ -88,12 +88,17 @@ export default function SiteHeader() {
       <header className={`site-header navbar navbar-dark p-0${!isHeaderVisible ? " site-header-hidden" : ""}`}>
         <div className="site-header-inner">
           <div className="site-header-row">
-            <Link href="/" className="navbar-brand brand m-0" aria-label="Amanportasia" onClick={closeMenu}>
+            <Link
+              href="/"
+              className="navbar-brand brand m-0"
+              aria-label="Informasi Lowongan Kerja Luar negri"
+              onClick={closeMenu}
+            >
               <span className="brand-logo-frame">
                 <Image
                   className="brand-logo"
                   src={amanportasiaLogo}
-                  alt="Amanportasia"
+                  alt="Informasi Lowongan Kerja Luar negri"
                   fill
                   quality={100}
                   sizes="(max-width: 576px) 62px, 88px"

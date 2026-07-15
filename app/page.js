@@ -22,7 +22,7 @@ export const metadata = {
         url: "/amanportasia.png",
         width: 1024,
         height: 1024,
-        alt: "Amanportasia"
+        alt: "Informasi Lowongan Kerja Luar negri"
       }
     ],
     locale: "id_ID",
@@ -35,7 +35,7 @@ const featuredBlocks = [
     title: "Profil Lembaga",
     desc: (
       <>
-        Pelajari <strong>visi, misi, dan layanan inti</strong> Amanportasia sebelum memulai proses.
+        Pelajari <strong>visi, misi, dan layanan inti</strong> sebelum memulai proses.
       </>
     ),
     linkLabel: "Buka Profil",
@@ -134,7 +134,7 @@ export default function HomePage() {
       <section className="section landing-hero">
         <div className="grid grid-cols-1 gap-8">
           <article className="hero-copy hero-copy-main h-full">
-            <p className="eyebrow">Website Resmi  Amanportasia</p>
+            <p className="eyebrow">Website Informasi Lowongan Kerja Luar negri</p>
             <h1>
               Informasi Lowongan Kerja <span className="text-accent">Luar negri</span>
             </h1>
@@ -195,7 +195,7 @@ export default function HomePage() {
         </div>
 
         <article className="infographic-note mt-3">
-          <h3> Amanportasia Siap Menjadi Partner Informasi Anda</h3>
+          <h3>Informasi Lowongan Kerja Luar negri Siap Menjadi Partner Informasi Anda</h3>
           <p className="story-note">
             Tujuan kami bukan sekadar memberi data, tetapi membantu Anda mengambil keputusan dengan{" "}
             <strong>percaya diri</strong>, <strong>terarah</strong>, dan <em>realistis</em> sesuai kondisi masing-masing
