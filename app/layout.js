@@ -7,7 +7,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Lowongan Kerja Luar Negeri TKI",
-  alternateName: "Amanportasia",
+  alternateName: "Lowongan Kerja Luar Negeri TKI",
   url: "https://www.amanportasia.com/"
 };
 
@@ -35,13 +35,13 @@ export const metadata = {
     title: "Lowongan Kerja Luar Negeri TKI",
     description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
     url: "https://www.amanportasia.com",
-    siteName: "Amanportasia",
+    siteName: "Lowongan Kerja Luar Negeri TKI",
     images: [
       {
         url: "/amanportasia.png",
         width: 1024,
         height: 1024,
-        alt: "Amanportasia"
+        alt: "Lowongan Kerja Luar Negeri TKI"
       }
     ],
     locale: "id_ID",
