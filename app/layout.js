@@ -6,14 +6,14 @@ import SiteHeader from "../components/SiteHeader";
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Amanportasia",
+  name: "Lowongan Kerja Luar Negeri TKI",
   alternateName: "Amanportasia",
   url: "https://www.amanportasia.com/"
 };
 
 export const metadata = {
   metadataBase: new URL("https://www.amanportasia.com"),
-  applicationName: "Amanportasia",
+  applicationName: "Lowongan Kerja Luar Negeri TKI",
   alternates: {
     canonical: "https://www.amanportasia.com/"
   },
