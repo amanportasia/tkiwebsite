@@ -6,14 +6,14 @@ import SiteHeader from "../components/SiteHeader";
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Lowongan Kerja Luar Negeri TKI",
-  alternateName: "Lowongan Kerja Luar Negeri TKI",
+  name: "Amanportasia",
+  alternateName: "Amanportasia",
   url: "https://www.amanportasia.com/"
 };
 
 export const metadata = {
   metadataBase: new URL("https://www.amanportasia.com"),
-  applicationName: "Lowongan Kerja Luar Negeri TKI",
+  applicationName: "Amanportasia",
   alternates: {
     canonical: "https://www.amanportasia.com/"
   },
@@ -35,13 +35,13 @@ export const metadata = {
     title: "Lowongan Kerja Luar Negeri TKI",
     description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
     url: "https://www.amanportasia.com",
-    siteName: "Lowongan Kerja Luar Negeri TKI",
+    siteName: "Amanportasia",
     images: [
       {
         url: "/amanportasia.png",
         width: 1024,
         height: 1024,
-        alt: "Lowongan Kerja Luar Negeri TKI"
+        alt: "Amanportasia"
       }
     ],
     locale: "id_ID",
