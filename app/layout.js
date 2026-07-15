@@ -6,22 +6,22 @@ import SiteHeader from "../components/SiteHeader";
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Amanportasia",
-  alternateName: "Amanportasia",
+  name: "Informasi Lowongan Kerja Luar negri",
+  alternateName: "Informasi Lowongan Kerja Luar negri",
   url: "https://www.amanportasia.com/"
 };
 
 export const metadata = {
   metadataBase: new URL("https://www.amanportasia.com"),
-  applicationName: "Amanportasia",
+  applicationName: "Informasi Lowongan Kerja Luar negri",
   alternates: {
     canonical: "https://www.amanportasia.com/"
   },
   title: {
-    default: "Lowongan Kerja Luar Negeri TKI",
-    template: "%s | Lowongan Kerja Luar Negeri TKI"
+    default: "Informasi Lowongan Kerja Luar negri",
+    template: "%s | Informasi Lowongan Kerja Luar negri"
   },
-  description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
+  description: "Informasi lowongan kerja luar negri untuk calon tenaga kerja dengan panduan syarat, negara tujuan, dan kontak konsultasi.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
@@ -32,10 +32,10 @@ export const metadata = {
     apple: "/apple-touch-icon.png"
   },
   openGraph: {
-    title: "Lowongan Kerja Luar Negeri TKI",
-    description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
+    title: "Informasi Lowongan Kerja Luar negri",
+    description: "Informasi lowongan kerja luar negri untuk calon tenaga kerja dengan panduan syarat, negara tujuan, dan kontak konsultasi.",
     url: "https://www.amanportasia.com",
-    siteName: "Amanportasia",
+    siteName: "Informasi Lowongan Kerja Luar negri",
     images: [
       {
         url: "/amanportasia.png",

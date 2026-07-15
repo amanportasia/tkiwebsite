@@ -7,16 +7,16 @@ import malaysiaIcon from "../images/malaysia_icon.jpg";
 
 export const metadata = {
   title: {
-    absolute: "Lowongan Kerja Luar Negeri TKI"
+    absolute: "Informasi Lowongan Kerja Luar negri"
   },
   description:
-    "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
+    "Informasi lowongan kerja luar negri untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
   openGraph: {
-    title: "Lowongan Kerja Luar Negeri TKI",
+    title: "Informasi Lowongan Kerja Luar negri",
     description:
-      "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
+      "Informasi lowongan kerja luar negri untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
     url: "https://www.amanportasia.com",
-    siteName: "Amanportasia",
+    siteName: "Informasi Lowongan Kerja Luar negri",
     images: [
       {
         url: "/amanportasia.png",
@@ -136,7 +136,7 @@ export default function HomePage() {
           <article className="hero-copy hero-copy-main h-full">
             <p className="eyebrow">Website Resmi  Amanportasia</p>
             <h1>
-              Lowongan Kerja Luar Negeri <span className="text-accent">TKI</span>
+              Informasi Lowongan Kerja <span className="text-accent">Luar negri</span>
             </h1>
             <p className="hero-lead">
               Kami membantu calon tenaga kerja memahami <strong>syarat</strong>, <strong>pilihan negara</strong>, dan{" "}
