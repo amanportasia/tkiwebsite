@@ -5,6 +5,19 @@ import taiwanIcon from "../images/taiwan_icon.jpg";
 import hongkongIcon from "../images/hongkong_icon.jpg";
 import malaysiaIcon from "../images/malaysia_icon.jpg";
 
+export const metadata = {
+  title: {
+    absolute: "Lowongan Kerja Luar Negeri TKI"
+  },
+  description:
+    "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
+  openGraph: {
+    title: "Lowongan Kerja Luar Negeri TKI",
+    description:
+      "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi."
+  }
+};
+
 const featuredBlocks = [
   {
     title: "Profil Lembaga",
@@ -111,8 +124,7 @@ export default function HomePage() {
           <article className="hero-copy hero-copy-main h-full">
             <p className="eyebrow">Website Resmi  Amanportasia</p>
             <h1>
-              Masa Depan Karier Migran Dimulai dari <span className="highlight-word">Informasi yang Jelas</span> dan{" "}
-              <span className="text-accent">Resmi</span>.
+              Lowongan Kerja Luar Negeri <span className="text-accent">TKI</span>
             </h1>
             <p className="hero-lead">
               Kami membantu calon tenaga kerja memahami <strong>syarat</strong>, <strong>pilihan negara</strong>, dan{" "}
