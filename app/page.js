@@ -244,6 +244,9 @@ export default function HomePage() {
               <li>
                 <strong>MCU</strong> atau pemeriksaan kesehatan awal.
               </li>
+               <li>
+                belajar di <strong>LPK</strong>.
+              </li>
               <li>
                 Pendaftaran <strong>ID PMI</strong> di <em>Dinas Tenaga Kerja</em>.
               </li>
