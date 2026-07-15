@@ -1,7 +1,14 @@
 import "./globals.css";
-import BrowserTitle from "../components/BrowserTitle";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Amanportasia",
+  alternateName: "Amanportasia",
+  url: "https://www.amanportasia.com/"
+};
 
 export const metadata = {
   metadataBase: new URL("https://www.amanportasia.com"),
@@ -49,6 +56,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
         <link
           href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css"
           rel="stylesheet"
@@ -65,7 +73,6 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <BrowserTitle />
         <SiteHeader />
         {children}
         <SiteFooter />

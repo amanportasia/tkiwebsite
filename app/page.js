@@ -14,7 +14,19 @@ export const metadata = {
   openGraph: {
     title: "Lowongan Kerja Luar Negeri TKI",
     description:
-      "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi."
+      "Lowongan kerja luar negeri TKI untuk calon tenaga kerja yang ingin memahami syarat, negara tujuan, dan proses pendaftaran resmi.",
+    url: "https://www.amanportasia.com",
+    siteName: "Amanportasia",
+    images: [
+      {
+        url: "/amanportasia.png",
+        width: 1024,
+        height: 1024,
+        alt: "Amanportasia"
+      }
+    ],
+    locale: "id_ID",
+    type: "website"
   }
 };
 
