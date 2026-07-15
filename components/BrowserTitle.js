@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function BrowserTitle() {
   useEffect(() => {
-    document.title = "Amanportasia";
+    document.title = "Lowongan Kerja Luar Negeri TKI";
   }, []);
 
   return null;
