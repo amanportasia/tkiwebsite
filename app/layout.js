@@ -3,9 +3,11 @@ import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
 export const metadata = {
+  metadataBase: new URL("https://www.amanportasia.com"),
+  applicationName: "Amanportasia",
   title: {
-    default: "Amanportasia",
-    template: "%s |  Amanportasia"
+    default: "Lowongan Kerja Luar Negeri TKI",
+    template: "%s | Lowongan Kerja Luar Negeri TKI"
   },
   description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
   icons: {
@@ -16,6 +18,22 @@ export const metadata = {
     ],
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png"
+  },
+  openGraph: {
+    title: "Lowongan Kerja Luar Negeri TKI",
+    description: "Website CTKI dengan menu Beranda, Profil, dan Contact Person.",
+    url: "https://www.amanportasia.com",
+    siteName: "Amanportasia",
+    images: [
+      {
+        url: "/amanportasia.png",
+        width: 1024,
+        height: 1024,
+        alt: "Amanportasia"
+      }
+    ],
+    locale: "id_ID",
+    type: "website"
   }
 };
 
