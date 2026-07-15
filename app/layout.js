@@ -1,4 +1,5 @@
 import "./globals.css";
+import BrowserTitle from "../components/BrowserTitle";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <BrowserTitle />
         <SiteHeader />
         {children}
         <SiteFooter />
