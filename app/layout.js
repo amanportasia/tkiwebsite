@@ -1,5 +1,4 @@
 import "./globals.css";
-import BrowserTitle from "../components/BrowserTitle";
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
 
@@ -14,6 +13,9 @@ const websiteJsonLd = {
 export const metadata = {
   metadataBase: new URL("https://www.amanportasia.com"),
   applicationName: "Amanportasia",
+  alternates: {
+    canonical: "https://www.amanportasia.com/"
+  },
   title: {
     default: "Lowongan Kerja Luar Negeri TKI",
     template: "%s | Lowongan Kerja Luar Negeri TKI"
@@ -74,7 +76,6 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <BrowserTitle />
         <SiteHeader />
         {children}
         <SiteFooter />
